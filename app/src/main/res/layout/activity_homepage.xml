@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="FITPEACIFY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="Your Health, Just a Tap Away! Empowering You to Live Healthier, Every Day"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="440dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="30dp"
+        android:id="@+id/android"
+        android:backgroundTint="#2F513FB5">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="Our Services"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL US"
+                android:background="#F7FFFFFF"
+                android:backgroundTint="#ffff"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="70dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:id="@+id/ios"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="15dp"
+                android:backgroundTint="#2F513FB5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="health consultation"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/machinelearn"
+                app:cardCornerRadius="15dp"
+                android:backgroundTint="#2F513FB5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sleep   tracker"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="250dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:id="@+id/ios"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="15dp"
+                android:backgroundTint="#2F513FB5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Binaural beats"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/machinelearn"
+                app:cardCornerRadius="15dp"
+                android:backgroundTint="#2F513FB5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Positive affirmations"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
